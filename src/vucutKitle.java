@@ -12,7 +12,7 @@ public class vucutKitle {
         System.out.print("kilo: ");
         kilo = endeks.nextDouble();
 
-        double endeksFormul= kilo / (boy * boy);
+        double endeksFormul= kilo / (boy * boy) * 10000;
         System.out.print("Vücut Kitle Endeksi: " +endeksFormul);
     }
 }
