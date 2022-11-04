@@ -7,9 +7,9 @@ public class vucutKitle {
 
         Scanner endeks = new Scanner(System.in);
 
-        System.out.print("boy:");
+        System.out.print("boy(cm) :");
         boy = endeks.nextDouble();
-        System.out.print("kilo: ");
+        System.out.print("kilo(kg) : ");
         kilo = endeks.nextDouble();
 
         double endeksFormul= kilo / (boy * boy) * 10000;
